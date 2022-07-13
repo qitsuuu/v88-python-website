@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #265073;
+}
+
+div.container{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #265073;
+    height: 100vh;
+}
+
+    header img{
+        width: 200px;
+     }
+    header div{
+        display: inline-block;
+        width: 457px;
+        padding: 25px 0 10px 0;
+    }
+    header div.action-form{
+        text-align: right;
+        vertical-align: top;
+        font-size: 14px;
+    }
+    header div.action-form *{
+        display: inline-block;
+    }
+        div.action-form a, .action-form ul{
+            margin-left: 3px;
+        }
+
+        div.action-form ul{
+            background-color: #103049;
+             border-bottom: 1px solid darkslategray;
+        }
+
+        div.action-form ul li{
+            padding: 10px 15px;
+            border-right: 1px solid darkslategray;;
+        }
+
+        div.action-form a, input{
+            padding: 5px;
+        }
+
+        div.action-form ul, a#donate, input#go, nav ul{
+            border-radius: 5px;
+        }
+            a#donate{
+                background-color: #ffd751;
+                color: gray;
+            }
+
+            input#go{
+                border:0;
+            }
+
+        header input#go, nav ul{
+            background-image: linear-gradient(#3776ab,#3a72a0);
+        }
+
+        header, nav{
+            padding: 0 25px;
+        }
+        nav{
+            text-align: center;
+        }
+        header a, header input#go, nav a, section.description p {
+            color: white;
+        }
+            nav ul{
+                box-shadow: 0px 2px 9px rgb(35, 35, 35);
+            }
+            
+            nav ul li{
+                display: inline-block;
+                padding: 10px;
+                border-right: 0.5px solid rgb(90, 90, 90);
+            }
+                li.active{
+                    background-color: #265073;
+                    border: 0;
+                }
+        section.description{
+            position: relative;
+            margin-left: 100px;
+        }
+
+        section.description div{
+            display: inline-block;
+            width: 400px;
+            vertical-align: top;
+        }        
+            .description h1{
+                font-size: 24px;
+                color: #ffd751;
+                line-height: .35in;
+            }
+
+            .description p{
+                font-size: 14px; /*common*/
+                line-height: .2in;
+            }
+            .description h1, .description p{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 0 30px 0 0;
+            }
+            .description img{
+                width:470px;
+                position: absolute;
+                right: 30px;
+            }
+        
+        div.more-info{
+            background-color: white;
+            padding: 20px 45px 30px 45px;
+            box-shadow: 0px 0px 3px 1px rgb(58, 58, 58);
+        }
+        .more-info section{
+            border-top: 3px solid #3776ab;
+            display: inline-block;
+            vertical-align: top;
+            width: 430px;
+            position: relative;
+            padding-top: 10px;
+        }
+        .more-info section.latest-news{
+            margin-right: 15px;
+        }
+            .latest-news table, .use-python{
+                font-size: 12px;
+            }
+
+            .latest-news table tr td, .use-python p{
+                padding: 6px 0 6px 0;
+                border-top: 1px solid  rgb(236, 236, 236);
+            }
+
+            .latest-news table a{
+                padding-left: 20px;
+            }
+
+            .latest-news h2, h3 {
+                display: inline-block;
+                font-size: 18px;
+                padding-bottom: 5px;
+            }
+
+            section a.more{
+                position: absolute;
+                right: 10px;
+                font-size: 12px;    
+                color: gray;
+            }
+
+        .more-info section.use-python p{
+            font-weight: bold;
+        }
+        .more-info section.use-python p a{
+            background-color: rgb(236, 236, 236);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: lighter;
+        }
+        footer{
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer *{
+            color: #5ca3dd;
+        }
+
+        footer ul{
+            margin-top: 20px;
+            display: block;
+        }
+
+        footer ul li{
+            display: inline-block;
+        }
+
+        footer ul.more-options{
+            font-size: 12px;
+        }
+            .more-options li *{
+                display: inline-block;
+                margin: 0 0 0 7px;
+            }
+            .more-options div.status{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: green;
+            }
+
+        footer ul.copyright{
+            font-size: 8px;    
+        }
+            .copyright a{
+                border-bottom: 1px dotted gray;
+                margin: 0 2px;
+            }
